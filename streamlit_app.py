@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1VVWqXJSFX8IsUD8ajnreCHAl7fTI4bhI
 """
 
-!pip install -q streamlit transformers torch
 import streamlit as st
 import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
